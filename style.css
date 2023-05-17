@@ -1,4 +1,3 @@
-/* ----- style.css ----- */
 * {
     margin: 0;
     padding: 0;
@@ -8,19 +7,14 @@ body {
     background-color: #ffffff;
 }
 
-svg path {
+.lote_poligono {
     fill: #ffffff;
     stroke: #bababa;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-    stroke-dasharray: none;
-    stroke-opacity: 1;
     stroke-width: 0.06;
-    stroke-miterlimit: 10;
 }
 
-svg path:hover {
-    fill: #89e2ff;
+.lote_poligono:hover {
+    fill: #c2d0f5;
     transition: 0.6s;
     cursor: pointer;
 }
@@ -37,35 +31,33 @@ svg path:hover {
 }
 
 .lote_numero {
-    font-variant:normal;
-    font-weight:normal;
-    font-size:0.693186px;
-    font-family:Arial;
-    writing-mode:lr-tb;
-    fill:#000000;
-    fill-opacity:1;
-    fill-rule:nonzero;
-    stroke:none;
-    stroke-width:0.0555081"
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 0.7px;
+    font-family: Arial;
+    fill: #6a6a6a;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    user-select: none;
 }
 
 .rua_nome {
-    font-variant:normal;
-    font-weight:normal;
-    font-size:0.693186px;
-    font-family:Arial;
-    writing-mode:lr-tb;
-    fill:#000000;
-    fill-opacity:1;
-    fill-rule:nonzero;
-    stroke:none;
-    stroke-width:0.0555081
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 0.7px;
+    font-family: Arial;
+    writing-mode: lr-tb;
+    fill: #000000;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    user-select: none;
+    stroke-width: 0.0423334
 }
 
 .quadra_letra_circulo {
     fill: none;
     stroke: #000000;
-    stroke-width: 0.15;
+    stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-miterlimit: 10;
@@ -74,16 +66,17 @@ svg path:hover {
 }
 
 .quadra_letra_texto {
-    font-variant:normal;
-    font-weight:normal;
-    font-size:1.5px;
-    font-family:Arial;
-    writing-mode:lr-tb;
-    fill:#000000;
-    fill-opacity:1;
-    fill-rule:nonzero;
-    stroke:none;
-    stroke-width:0.05"
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.5px;
+    font-family: Arial;
+    writing-mode: lr-tb;
+    fill: #000000;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    stroke: none;
+    stroke-width: 0.05;
+    user-select: none
 }
 
 .linha_de_chamada {
