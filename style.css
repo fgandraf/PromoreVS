@@ -10,12 +10,89 @@ body {
 
 svg path {
     fill: #ffffff;
-    stroke: #eee;
-    stroke-width: .25;
+    stroke: #bababa;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: none;
+    stroke-opacity: 1;
+    stroke-width: 0.06;
+    stroke-miterlimit: 10;
 }
 
 svg path:hover {
     fill: #89e2ff;
     transition: 0.6s;
     cursor: pointer;
+}
+
+.rua_poligono {
+    fill: none;
+    stroke: #000000;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: none;
+    stroke-opacity: 1;
+    stroke-width: 0.15;
+    stroke-miterlimit: 10;
+}
+
+.lote_numero {
+    font-variant:normal;
+    font-weight:normal;
+    font-size:0.693186px;
+    font-family:Arial;
+    writing-mode:lr-tb;
+    fill:#000000;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:0.0555081"
+}
+
+.rua_nome {
+    font-variant:normal;
+    font-weight:normal;
+    font-size:0.693186px;
+    font-family:Arial;
+    writing-mode:lr-tb;
+    fill:#000000;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:0.0555081
+}
+
+.quadra_letra_circulo {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 0.15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: none;
+    stroke-opacity: 1
+}
+
+.quadra_letra_texto {
+    font-variant:normal;
+    font-weight:normal;
+    font-size:1.5px;
+    font-family:Arial;
+    writing-mode:lr-tb;
+    fill:#000000;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:0.05"
+}
+
+.linha_de_chamada {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 0.05;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: none;
+    stroke-opacity: 1
 }
