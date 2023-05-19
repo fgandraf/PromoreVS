@@ -1,11 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+.material-symbols-outlined {
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
 body {
     background-color: #ffffff;
+    text-align: center;
+    height: 100vh;
 }
+
+header {
+    display: flex;
+    position: fixed;
+    height: 18px;
+    background-color: #4a4a4a;
+    left: 1%;
+    right: 1%;
+    top: 2%;
+    opacity: .9;
+    justify-content: space-between;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Krona One', sans-serif;
+    color: #68cbee;
+    user-select: none;
+    padding: 5px;
+}
+
+main {
+    padding: 3vh;
+    height: 100vh;
+}
+
+svg {
+    height: 100%;
+}
+
+#svgmap.ampliado {
+    height: 300%;
+    /*transform: scale(2);
+    transition: transform 0.3s ease-in-out;*/
+}
+
 
 .lote_poligono {
     fill: #ffffff;
@@ -51,7 +103,7 @@ body {
     fill-opacity: 1;
     fill-rule: nonzero;
     user-select: none;
-    stroke-width: 0.0423334
+    stroke-width: 0.04
 }
 
 .quadra_letra_circulo {
